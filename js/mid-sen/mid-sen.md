@@ -1,7 +1,16 @@
 ### TASK
-Create a es6 module with function getName, getSurname and default export getFullname.
-Create the same with commonJS module
-What is the difference?
+
+Create debounce function
+
+### TASK
+
+Create throttle function
+
+### TASK
+
+Find the number of occurences of minimum value in the list
+
+const arr = [1, 2, 3, 1, 1];
 
 ### TASK
 

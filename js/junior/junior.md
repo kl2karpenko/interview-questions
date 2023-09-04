@@ -51,17 +51,3 @@ What problem callbacks solve?
 ### TASK
 
 How would you use a closure to create a private counter?
-
-### TASK
-
-Create debounce function
-
-### TASK
-
-Create throttle function
-
-### TASK
-
-Find the number of occurences of minimum value in the list
-
-const arr = [1, 2, 3, 1, 1];
