@@ -137,6 +137,33 @@ Any updates to the ref will be reflected only in the commit phase. In other word
 
 **[⬆ Back to Top](#table-of-contents)**
 
+#### 4. Refs on input
+
+```jsx
+export default function MyCustomForm() {
+  function handleInputFocus() {
+		// 
+  }
+
+  return (
+    <>
+      <input autofocus />
+      <button onClick={handleInputFocus}>
+        Click Me
+      </button>
+    </>
+  );
+}
+```
+
+- 1: Input gets the focus
+- 2: Warning: Function components cannot be given refs.
+- 3: Cannot read current property of undefined
+- 4: Warning: Missing ref on <input /> element
+
+<details><summary><b>Answer</b></summary>
+<p>
+
 #### 4. What is the outcome of below code after button click?
 
 ```javascript
